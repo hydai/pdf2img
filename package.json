@@ -11,7 +11,7 @@
     "lint:fix": "eslint . --fix",
     "build": "echo \"No build step required for Node.js app\" && exit 0",
     "commitlint": "commitlint --edit",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "express": "^4.18.2",

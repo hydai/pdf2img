@@ -32,7 +32,7 @@ jobs:
           VALIDATE_JSON: true
           VALIDATE_YAML: true
           VALIDATE_MARKDOWN: true
-          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.js
+          JAVASCRIPT_ES_CONFIG_FILE: eslint.config.js
 
   commitlint:
     name: Check Commit Messages
