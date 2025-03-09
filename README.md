@@ -134,6 +134,26 @@ Common types include:
 - `test`: Adding or updating tests
 - `chore`: Changes to the build process or auxiliary tools
 
+## Project Status: Experimental
+
+⚠️ **IMPORTANT NOTICE** ⚠️
+
+This project is currently in an **experimental stage** and is being developed for research and educational purposes only. It is not ready for production use and comes with several important caveats:
+
+- The code may contain bugs, security vulnerabilities, or performance issues
+- APIs and functionality are subject to change without notice
+- No guarantees are made regarding uptime, reliability, or data integrity
+- Limited testing has been performed across different environments and use cases
+- Support is limited and provided on a best-effort basis
+
+**DO NOT** use this project in:
+- Production environments
+- Systems handling sensitive data
+- Applications requiring high reliability or uptime
+- Critical infrastructure or business processes
+
+By using this software, you acknowledge that you understand its experimental nature and accept all associated risks.
+
 ## License
 
 This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
