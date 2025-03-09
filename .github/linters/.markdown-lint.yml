@@ -1,0 +1,28 @@
+---
+###########################
+###########################
+## Markdown Linter rules ##
+###########################
+###########################
+
+# Linter rules doc:
+# - https://github.com/DavidAnson/markdownlint
+#
+# Note:
+# To comment out a single line:
+#   <!-- markdownlint-disable -->
+#   any markdown
+#   <!-- markdownlint-restore -->
+#
+
+###############
+# Rules by id #
+###############
+MD013: false  # Line length
+MD024: false  # Multiple headings with the same content
+MD033: false  # Allow inline HTML
+
+##############
+# Rules by tag #
+##############
+blank_lines: true  # Error on blank lines

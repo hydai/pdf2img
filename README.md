@@ -103,3 +103,33 @@ This project uses Dependabot to automatically create pull requests for dependenc
 - Weekly checks for npm package updates
 - Weekly checks for GitHub Actions updates
 - Automated version bump pull requests
+
+### Code Quality and Consistency
+
+#### Linting
+This project uses GitHub Super-Linter for comprehensive linting across multiple languages and formats. Super-Linter helps maintain code quality by:
+- Enforcing consistent code style
+- Detecting syntax errors
+- Identifying potential bugs and security issues
+- Supporting JavaScript, JSON, YAML, Markdown, and more
+
+#### Commit Messages
+We enforce conventional commit messages using commitlint in our CI workflow. This ensures:
+- Consistent commit message format
+- Easier generation of changelogs
+- Better readability and project history
+- Automated semantic versioning
+
+The commit message format follows the [Conventional Commits](https://www.conventionalcommits.org/) specification:
+```
+type(scope): subject
+```
+
+Common types include:
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation changes
+- `style`: Code style changes (formatting, etc.)
+- `refactor`: Code changes that neither fix bugs nor add features
+- `test`: Adding or updating tests
+- `chore`: Changes to the build process or auxiliary tools
