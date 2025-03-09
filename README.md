@@ -133,3 +133,17 @@ Common types include:
 - `refactor`: Code changes that neither fix bugs nor add features
 - `test`: Adding or updating tests
 - `chore`: Changes to the build process or auxiliary tools
+
+## License
+
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
+
+### Apache License 2.0 Summary
+
+- You can freely use, modify, distribute and sell this software.
+- You must include the license and copyright notice with each distribution.
+- You must state changes made to the code.
+- You cannot use the copyright holders' names to promote products derived from this software without specific permission.
+- This software is provided without warranties or conditions of any kind.
+
+For the full license text, refer to the [LICENSE](LICENSE) file or visit [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
