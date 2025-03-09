@@ -95,3 +95,11 @@ This document outlines the specifications for a JavaScript-based API service tha
 - Implement image quality/resolution options
 - Add batch processing capabilities
 - Provide thumbnail generation option
+
+## Development Information
+
+### Dependency Management
+This project uses Dependabot to automatically create pull requests for dependency updates. The configuration is managed in `.github/dependabot.yml` and includes:
+- Weekly checks for npm package updates
+- Weekly checks for GitHub Actions updates
+- Automated version bump pull requests
